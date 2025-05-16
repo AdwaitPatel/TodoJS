@@ -1,4 +1,4 @@
-# 📝 [Advanced Todo App](https://todo-js-ashy.vercel.app/)
+# 📝 Advanced Todo App [Live 👉](https://todo-js-ashy.vercel.app/)
 
 An elegant, interactive and feature-rich Todo List application built with vanilla JavaScript, HTML, and CSS — featuring task editing, status tracking, local storage, toast notifications, and a celebratory confetti animation when all tasks are complete. 🎉
 
