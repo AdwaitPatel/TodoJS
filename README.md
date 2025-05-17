@@ -26,6 +26,6 @@ An elegant, interactive and feature-rich Todo List application built with vanill
 
 ## 📸 Preview
 
-![App Screenshot](img/preview.png)
+![App Screenshots](img/preview1.png)(img/preview2.png)
 
 ---
