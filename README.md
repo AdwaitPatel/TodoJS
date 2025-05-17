@@ -7,12 +7,17 @@ An elegant, interactive and feature-rich Todo List application built with vanill
 ## 🚀 Features
 
 - ✅ Add, edit, delete, and complete tasks
+- 🎯 Prioritize tasks as High, Medium, or Low
+- 🎨 Priority-based visual indicators and badges
+- 🔀 Tasks auto-sort by priority level
+- 🧠 Editable Pomodoro timer with Short and Long breaks
+- 🛠️ Custom timer input fields with minimum limit validation
+- ⏱️ Countdown timer with live display and mode switching
+- 🧮 Visual progress bar & dynamic task counter
+- 🔔 Toast notifications with action feedback
+- 🎉 Confetti celebration on task completion
 - 📦 Persistent storage via `localStorage`
-- ✨ Visual progress bar & dynamic task counter
-- 🖍️ Edit-in-place with smart update logic
-- 🎊 Confetti effect when all tasks are completed
-- 🔔 Toast notifications for task actions
-- 💅 Stylish UI with CSS variables and smooth transitions
+- 💅 Stylish and responsive UI with CSS variables
 
 ---
 
@@ -30,3 +35,9 @@ An elegant, interactive and feature-rich Todo List application built with vanill
 ![App Screenshot](img/preview1.png)
 
 ---
+
+## 🧩 Bonus Features
+
+- 🔄 Reset completed tasks when all are done
+- 🚫 Prevent false celebration when deleting last task
+- 📏 Modular layout with responsive two-column Pomodoro design
