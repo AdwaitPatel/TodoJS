@@ -13,11 +13,38 @@
 
 <body>
 
+    <div class="pomodoro-timer">
+        <h2>Pomodoro Timer</h2>
+        <div class="timer-modes">
+            <button class="mode-btn active" data-mode="pomodoro">Pomodoro</button>
+            <button class="mode-btn" data-mode="short">Short Break</button>
+            <button class="mode-btn" data-mode="long">Long Break</button>
+        </div>
+        <div class="timer-display" id="timer">25:00</div>
+        <div class="timer-controls">
+            <button id="startTimer">Start</button>
+            <button id="pauseTimer">Pause</button>
+            <button id="resetTimer">Reset</button>
+        </div>
+        <div class="timer-settings">
+            <label>Pomodoro (min):
+                <input type="number" id="pomodoroInput" min="15" value="25" />
+            </label>
+            <label>Short Break (min):
+                <input type="number" id="shortInput" min="1" value="5" />
+            </label>
+            <label>Long Break (min):
+                <input type="number" id="longInput" min="5" value="15" />
+            </label>
+            <button id="applyTimers">Apply</button>
+        </div>
+    </div>
+
     <div class="container">
         <div class="stats-container">
             <div class="details">
-                <h1>Todo App</h1>
-                <p>Keep It Up!</p>
+                <h1>Task List</h1>
+                <p>You Can Do It!</p>
                 <div id="progressBar">
                     <div id="progress"></div>
                 </div>
@@ -29,10 +56,16 @@
 
         <form action="">
             <input type="text" placeholder="Write your task" id="taskInput">
+            <select id="priorityInput">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
             <button type="submit" id="newTask">+</button>
         </form>
 
         <ul id="task-list"></ul>
+        <div id="status-message"></div>
     </div>
 
     <script src="./app.js"></script>
@@ -40,6 +73,3 @@
 </body>
 
 </html>
-
-
-
